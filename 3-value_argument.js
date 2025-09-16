@@ -1,11 +1,7 @@
+const firstArg =  process.argv[2];
 
-const first = process.argv[2];
-const second = process.argv[3];
-
-if (first === undefined) {
-  console.log('No argument');
-} else if (second === undefined) {
-  console.log('1 argument: ' + first);
+if (firstArg == undefined) {
+  console.log("No arguement");
 } else {
-  console.log('2 arguments: ' + first + ' ' + second);
+  console.log("firstArg");
 }
